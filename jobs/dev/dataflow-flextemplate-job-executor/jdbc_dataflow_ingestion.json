@@ -10,10 +10,10 @@
   "dataflow_job_params": {
     "driverJars": "gs://hacker-goog_aef_artifacts_bucket/jdbcjars/postgresql-42.7.3.jar",
     "driverClassName": "org.postgresql.Driver",
-    "connectionURL": "jdbc:postgresql://<DB_PRIVATE_IP>:5432/postgres",
-    "outputTable": "hacker-goog:aef_landing_sample_dataset.raw_suppliers",
-    "query": "SELECT * FROM public.suppliers",
-    "bigQueryLoadingTemporaryDirectory": "gs://hacker-goog-temp/jdbc_temp/suppliers/",
+    "connectionURL": "jdbc:postgresql://34.134.135.215:5432/postgres",
+    "outputTable": "hacker-goog.aef_hack_landing.raw_transactions",
+    "query": "SELECT * FROM public.raw_transactions",
+    "bigQueryLoadingTemporaryDirectory": "gs://hacker-goog-temp/jdbc_temp/raw_transactions/",
     "username": "user1",
     "password": "changeme",
     "createDisposition": "CREATE_NEVER"

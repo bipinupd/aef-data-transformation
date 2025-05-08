@@ -1,7 +1,7 @@
 {
   "dataform_location":"us-central1",
-  "dataform_project_id":"<PROJECT_ID>",
-  "repository_name": "sample-repo-1",
+  "dataform_project_id":"hacker-goog",
+  "repository_name": "dataform-repo",
   "branch": "main",
   "tags": [
     "process",
